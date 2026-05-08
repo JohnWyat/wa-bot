@@ -49,10 +49,6 @@ app.post("/deposit-confirmed", async (req, res) => {
 });
 
 // 2. just to check server is alive
-app.get("/", (req, res) => {
-    res.send("Server running");
-});
-
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
